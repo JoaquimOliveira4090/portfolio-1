@@ -15,7 +15,7 @@ body {
 
 
 header {
-    background-color: #4caf50;
+    background-color: grey;
     color: white;
     padding: 2rem 0;
 }
@@ -53,7 +53,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #4caf50;
+    color: grey;
 }
 
 
@@ -65,7 +65,7 @@ section {
 h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #4caf50;
+    color: grey;
 }
 
 ul {
@@ -97,7 +97,7 @@ ul li {
 }
 
 .projeto h3 {
-    color: #4caf50;
+    color: grey;
 }
 
 .projeto p {
@@ -110,7 +110,7 @@ ul li {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #4caf50;
+    background-color: grey;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -118,16 +118,10 @@ ul li {
 }
 
 .projeto a:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: white;
-    margin-top: 2rem;
-}
+
 
 
 @media (max-width: 768px) {
@@ -187,7 +181,7 @@ footer {
     bottom: 0;
     width: 100%; 
 }
-/* Grid de imagens para certificados */
+
 .imagem-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
